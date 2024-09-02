@@ -26,9 +26,9 @@ const Navbar = () => {
             <Image
               src="/home.png"
               alt="Homepage"
-              width={16}
+              width={16} // size for next js image optimizations
               height={16}
-              className="w-4 h-4"
+              className="w-4 h-4" // size for styling
             />
             <span>Homepage</span>
           </Link>
